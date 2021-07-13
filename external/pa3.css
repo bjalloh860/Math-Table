@@ -1,0 +1,68 @@
+/*Bailor, Jawad, Robbie
+3/24/21
+CSS Stylesheet. */
+
+/*Sets background color for webpage*/
+body {
+  background-color: lightgray;
+}
+
+/*Styling for table, including margin width*/
+table {
+  border-collapse: collapse;
+  margin-top: 25px;
+  width: 30px;
+}
+
+/*Styling for table elements*/
+td {
+  border: 1px solid black;
+  padding:10px;
+  text-align: center;
+  text-decoration-color: white;
+}
+
+/*Styling for input box inside of table*/
+td input {
+  border: 1px solid black;
+  padding:5px;
+  text-align: center;
+  width: 30px;
+  height:100%;
+}
+
+/*Sets sizing for header using rem*/
+.header {
+  margin: 1rem 0 2rem 0;
+}
+
+/*Sets color for timer*/
+.timer {
+  color:red;
+}
+
+/*Used to center elements in page*/
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Sets spacing for user input*/
+.input {
+  margin-bottom: 2rem;
+}
+
+/*Sets color for alert*/
+.alert {
+  color: green;
+}
+
+/*Sets color for when user gets right number*/
+.correct {
+  color: green;
+}
+
+/*Sets color for when user gets wrong number*/
+.incorrect {
+  color: red;
+}
